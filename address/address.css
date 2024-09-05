@@ -1,0 +1,227 @@
+.W {margin: 0 auto;
+	width: 990px;
+}
+/* 通用板块结束 */
+/* logo区域的开始 */
+/* ~~~~~logo 区域开始~~~~~~~~~~~~~~ */
+.logo {
+	height: var(--header-logo);  
+	display: flex; align-items: center;
+	justify-content: space-between;
+} 
+.search-warper>ul>li {flex-grow: 1;}
+.search-input {
+	height: 44px; width: 510px;
+	padding: 10px 10px;
+	background-color: var(--main-color);
+}
+.search-input>input {
+	width: calc(510px - 60px);
+}
+.search-input>span {display: block;}
+.main-cart {font-size: 1.2rem;}
+.main-cart>div {
+	padding: 0 30px; margin-left: 10px;
+	width: 120px; height: 38px;
+	display: flex; align-items: center;
+	background-color: #f8f8f6;
+	border: 1px solid #111;
+}
+.addressManage {cursor: pointer;}
+
+
+/* 地址的管理开始~~~~~~~~~~~ */
+.getDddress {
+	position: fixed;
+	top: 0; left: 0;
+	width: 100vw; height: 100vh;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 9;
+	display: none;
+}
+.formActive {display: block;}
+/* 添加激活样式 */
+.boxForm {
+	display: flex;
+	position: relative;
+	top: 10%; left: 50%;
+	transform: translateX(-50%);
+	width: 740px; height: 420px;
+	background-color: #ffffff;
+	padding: 6px;
+}
+.boxForm>form {
+	display: flex;
+	flex-direction: column;
+}
+.form-warper {
+	position: relative;
+	flex-grow: 1;
+}
+.form-warper>ul {width: 100%;}
+.form-warper>ul>li>span {
+	display: inline-block;
+	width: 80px;
+}
+.form-warper>ul>li>span::before {
+	content: "* ";
+	color: red;
+	font-size: 14px;
+}
+.form-warper>ul>li {
+	width: 100%;
+	margin-top: 30px;
+}
+.boxForm input[type=text],
+.style {
+	width: 144px;
+	height: 24px;
+	border: 1px solid #e5e5e5;
+}
+/* 保存按钮 */
+.saveData {
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	display: block;
+	width: 160px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 12px;
+	background: var(--main-color);
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	cursor: pointer;
+}
+/* 地址的管理结束~~~~~~~~~~~ */
+
+.ourAddress {
+	min-height: 1100px;
+}
+.ourAddress>div {
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+.ourAddress h3 {
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	background: #e8efd3;
+	color: #6d8800;
+	border-radius: 50%;
+	text-align: center;
+}
+
+.addressBox {
+	width: 880px;
+	min-height: 200px;
+	border: 1px solid #dedede;
+	
+}
+/* 用户 */
+.user-warper {
+	min-height: 60px;
+}
+ul.userList {
+	padding: 16px 14px;
+	width: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 14px;
+	column-gap: 10px;
+}
+.foldLis {
+	max-height: 200px;
+}
+li.user {
+	width: 276px;
+	height: 170px;
+	border: 1px solid #dedede;
+	padding: 12px;
+}
+.addUnfold {
+	padding: 0 14px 12px 14px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.btn-add {
+	color: var(--main-color);
+	font-size: 14px;
+	cursor: pointer;
+}
+.btn-unfold {
+	color: #eb6100;
+	font-size: 14px;
+	cursor: pointer;
+}
+/* 配送信息 */
+
+/* 订单 */
+
+/* 发票 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

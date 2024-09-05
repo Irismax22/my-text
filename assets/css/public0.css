@@ -1,0 +1,46 @@
+
+/* 公共样式 */
+html {font-size: 12px;}
+.W {width: var(--W); margin: 0 auto;}
+.tl {min-width: var(--W);}
+.flex {display: flex;}
+.relative {position: relative;}
+.transition {transition: all .4s;}
+/* 公共变量 */	
+:root {
+	--W: 1200px;
+	--gray: #f8f8f6;
+	--main-color: #8ab700;
+	--sub-color: #ff9000; 
+	--a-color: #f98601;
+	--font-gap: 12px;
+	--header-top: 30px;
+	--header-logo: 114px;
+	--nav: 44px;
+	--nav-left: 210px;
+	--banner: 400px;
+	--good: 266px;
+	--sort: 578px;
+	--sort-span: 48px;
+	--sort-banner: 120px;
+	--sort-left: 314px;
+	--sort-left-sort: 51.8px;
+	--sort-nav-height: 52px;
+}
+
+/* ~~~~头部样式~~~~~~~~ */
+.header {height: var(--header-top); 
+	background-color: #fcfcfc;
+	border-bottom: 1px solid #dedede;
+} 
+.header-nav {
+	align-items: center; 
+	column-gap: var(--font-gap);
+	padding: 0 10px 0;
+	border-left: 1px solid #dedede;
+	border-right: 1px solid #dedede;
+}
+.solid {}
+.header-nav>li>a {
+	color: var(--a-color);
+}

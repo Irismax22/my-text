@@ -1,0 +1,36 @@
+iframe {
+	margin: o auto;
+	width: 1920px;
+	height: 556px;
+}
+
+.content {
+	/* height: 694px; */
+	flex-direction: column;
+	
+}
+.product {
+	
+}
+.show {
+	height: 480px;
+}
+.records {
+	height: 316px;
+	background-color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

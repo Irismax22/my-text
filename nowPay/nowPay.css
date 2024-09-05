@@ -1,0 +1,138 @@
+.W {margin: 0 auto;
+	width: 990px;
+}
+/* 通用板块结束 */
+/* logo区域的开始 */
+/* ~~~~~logo 区域开始~~~~~~~~~~~~~~ */
+.logo {
+	height: var(--header-logo);  
+	display: flex; align-items: center;
+	justify-content: space-between;
+} 
+.search-warper>ul>li {flex-grow: 1;}
+.search-input {
+	height: 44px; width: 510px;
+	padding: 10px 10px;
+	background-color: var(--main-color);
+}
+.search-input>input {
+	width: calc(510px - 60px);
+}
+.search-input>span {display: block;}
+.main-cart {font-size: 1.2rem;}
+.main-cart>div {
+	padding: 0 30px; margin-left: 10px;
+	width: 120px; height: 38px;
+	display: flex; align-items: center;
+	background-color: #f8f8f6;
+	border: 1px solid #111;
+}
+.addressManage {cursor: pointer;}
+
+/* 支付方式主体 */
+.pay-warper {
+	
+}
+.paywayTips {
+	margin-top: 80px;
+	height: 50px;
+	line-height: 20px;
+}
+.payWay {
+	padding: 30px;
+	border: 1px solid #dfdfdf;
+	/* height: 470px; */
+	line-height: 30px;
+}
+.payImage {
+	padding: 30px;
+	display: flex;
+	
+}
+.payImage>span {
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+}
+.payImage>span:nth-child(2) {
+	text-align: center;
+	padding-left: 30px;
+	border-left: 1px solid #dfdfdf;
+}
+.payImage>span>span {
+	font-size: 16px;
+}
+.payImage>span>img {
+	margin-top: 10px;
+	
+	width: 100%;
+}
+.payImage>span:nth-child(1)>img {
+	padding-right: 30px;
+	width: 100%;
+}
+/* 支付方式结束 */
+
+.go-1 {
+	margin-top: 12px;
+	font-size: 14px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
